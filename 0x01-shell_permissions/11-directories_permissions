@@ -1,2 +1,2 @@
 #!/bin/bash
-su chmod -R 741
+chmod -R ugo+X .
