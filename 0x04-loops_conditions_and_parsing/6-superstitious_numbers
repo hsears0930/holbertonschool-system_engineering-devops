@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# using case statement
+x=1
+y=4
+z=9
+q=17
+while [ $x -le 20 ]
+do
+	echo "$x"
+
+	case $x in 
+		$y)
+			echo "bad luck from China"
+			;;
+		$z)
+			echo "bad luck from Japan"
+			;;
+		$q)
+			echo "bad luck from Italy"
+			;;
+	esac
+	((x++))
+done
