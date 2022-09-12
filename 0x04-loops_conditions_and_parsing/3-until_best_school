@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# this is for writing my first until loop
+x=0
+until [ $x -gt 10 ]
+do
+	echo "Best School"
+	((x++))
+done
