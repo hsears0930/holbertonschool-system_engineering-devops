@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# using if, elif, and else in a while loop
+x=1
+y=4
+z=8
+while [ $x -le 10 ]
+do
+	echo "Best School"
+	if [ $x -eq $y ]
+	then
+		echo "bad luck"
+	elif [ $x -eq $z ] 
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+done 
+	((x++))
