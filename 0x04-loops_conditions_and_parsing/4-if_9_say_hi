@@ -1,14 +1,13 @@
-#!/bin/bash/env bash
+#!/usr/bin/env bash
 # entering an 'if' statment in while
 y=9
 x=1
-while [ $x -ge 10 ] ;
+while [ $x -ge 10 ] 
 do
 	echo "Best School"
-	if [ $x -eq $y ] ;
+	if [ $x -eq $y ] 
 	then 
-		echo "Best School
-		Hi"
+		echo "Hi"
+		fi
 		((x++))
-	fi
-done
+done 
