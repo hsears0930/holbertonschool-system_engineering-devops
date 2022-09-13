@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# using kill to terminate a process
+kill 18463
