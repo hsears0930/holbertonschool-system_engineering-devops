@@ -15,5 +15,4 @@ do
 	else
 		echo "Best School"
 	fi
-	((x++))
 done
