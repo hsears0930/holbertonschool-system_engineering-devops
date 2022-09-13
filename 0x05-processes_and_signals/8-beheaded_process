@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# to kill a process no mercy
+pkill -9 "7-highander" 
