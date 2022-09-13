@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# displaying current directory with a loop
+find . | for i in $(find .)                                            
+do                                                                     
+	        echo "$i"                                                      
+	done                                                                   
+	((x++))    
