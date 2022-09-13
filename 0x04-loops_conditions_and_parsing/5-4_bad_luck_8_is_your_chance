@@ -3,7 +3,7 @@
 x=1
 y=4
 z=8
-while [ $x -lt 10 ]
+while [ "$((x))" -lt 10 ]
 do
 	echo "Best School"
 	if [ $x -eq $y ]
