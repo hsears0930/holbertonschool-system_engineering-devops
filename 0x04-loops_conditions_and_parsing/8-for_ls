@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # this script is using for loop to show the current directory contents
-for FILE in *; do echo $FILE; done
+for FILE in *; do echo "$FILE" | cut -b 3-; done                                                                   
