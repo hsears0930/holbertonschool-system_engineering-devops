@@ -16,5 +16,4 @@ do
 		echo "$x"
 	fi
 	(( x++ ))
-done
-		
+done		
