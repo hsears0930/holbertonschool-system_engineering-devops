@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# displaying current directory with a loop
+# this script is using for loop to show the current directory contents
 for FILE in *; do echo $FILE; done
