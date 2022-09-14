@@ -8,12 +8,12 @@ do
 		echo "FizzBuzz"
 	elif [ $((x%5)) == 0 ]
 	then 
-		echo "Fizz"
+		echo "Buzz"
 	elif [ $((x%3)) == 0 ] 
 	then
-		echo "Buzz"
+		echo "Fizz"
 	else 
 		echo "$x"
 	fi
-	(( x++ ))
+		(( x++ ))
 done		
